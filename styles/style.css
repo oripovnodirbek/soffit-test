@@ -1,0 +1,258 @@
+/* manrope-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* manrope-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/manrope-v15-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/manrope-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  a {
+    text-decoration: none;
+   
+  }
+body {
+    background-color: #1C1C1E;
+    font-family: "Manrope",sans-serif;
+    font-weight: 500;
+}
+.container{
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+    margin-top: 60px;
+}
+.head__bloc {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.head__bloc div a {
+    text-decoration: none;
+    color: gray;
+}
+.head__bloc a:hover{
+    color: white;
+}
+.head__lang {
+    margin-left: 10px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    width: 99px;
+    height: 33px;
+    border-radius: 75px;
+    border: 1px solid;
+    padding-top: 12px;
+    padding-left: 15px ;
+    color: #fff;
+    opacity: 0.6;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero_child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 42px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.hero_child a {
+    color: white;
+}
+
+.hero__img{
+    margin-left: 5px;
+}
+
+
+.hero_child:nth-child(2) {
+    gap: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 163px;
+    background-color: white;
+}
+.hero_child:nth-child(2) a {
+    color: black;
+}
+
+.bac_img{
+    background-image: url("../images/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    height: 415px;
+   background-size: cover;
+    
+}
+.read {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    gap: 2px;
+    margin-top: 35px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.read a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+.vector{
+    width: 56px;
+    height: 76px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin-top: -30px;
+    background-color: rgb(55, 55, 55);
+}
+.vector a img{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+.text {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 50px;
+    line-height: 44px;
+}
+h1 {
+    color: white;
+    font-size: 55px;
+    margin-top: 100px;
+}
+.content {
+}
+
+.bloces {
+    display: flex;
+    align-items: center;    
+}
+.bloces_main {
+    color: white;
+    width: 400px;
+    height: 500px;
+    border: 4px solid grey;
+}
+.bloces_main h2 {
+    width: 173px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.bloces_main p {
+    width: 305px;    
+    height: 84px;
+    margin-top: 112px;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.read_main {
+    display: flex;
+    align-items: center;
+    width: 139px;
+    height: 42px;
+    border-radius: 20px;
+    color: white;
+    gap: 2px;
+    margin-top: 115px;
+    margin-left: 40px;
+    background-color: rgb(101, 100, 100);
+    opacity: 0.7;
+} 
+.read_main a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+.portifolio {
+    font-size: 55px;
+    color: white;
+    margin-top: 200px;
+}
+.portifolio_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.foot_bc {
+    background-image: url("../images/foterbac.png");
+    width: 100%;
+    background-position: center;
+    object-fit:cover;
+    background-repeat: no-repeat;
+    height: 415px;
+    background-size: 100%;
+    margin-top: 80px;
+}
+
+.footer_head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: grey;
+}
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+}
+.main_child {
+    line-height: 15px;
+    width: 400px;
+    color: white;
+    margin-left: 20px;
+}
+.main_child input {
+    width: 363px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    background-color:rgb(21, 20, 20);
+    color: white;
+    margin-top: 15px;
+}
+.end {
+    color: white;
+    margin-top: 52px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
